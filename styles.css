@@ -1,0 +1,130 @@
+body {
+display: flex;
+flex-direction: column;
+font-family: Arial, sans-serif;
+line-height: 1.6;
+background-color: #F8F8FF;
+color: #333;
+padding: 0;
+margin: 0;
+position: relative;
+min-height: 100vh;
+}
+  
+.encabezado {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+background-color: #207bd8;
+color: #fff;
+height: 120px;
+padding: 10px;
+text-decoration: none;
+list-style-type: none;
+}
+
+.logo {
+  width: 300px;
+}
+
+.logo img {
+height: 150px;
+width: 150px;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.li-link {
+  border-radius: 5px;
+  padding: 16px 14px;
+  color: white;
+  text-decoration: none;
+}
+
+.li-link:hover {
+  background-color: #94e9e7;
+  transition: 0.10s;
+  color: black;
+}
+  
+
+  
+main {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+margin: 30px 20px 8%;
+
+}
+
+  .filas
+  {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+    margin: 10px;
+  }
+
+  .Productos {
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+    max-height: 600px;
+  }
+  
+  .Productos img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 5px solid black;
+  }
+  
+  .Productos .bar-inter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .bar-inter p {
+    background-color: #78767c ;
+    padding: 6px 10px;
+    border-radius: 5px;
+    color: #fff;
+  }
+  button {
+    background-color: #20a7d8;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  footer {
+    background-color: #207bd8;
+    color: #fff;
+    text-align: center;
+    height: 100px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
